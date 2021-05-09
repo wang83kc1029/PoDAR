@@ -38,19 +38,29 @@ preprocess.py: implement the generation of polar coordinate bev map
 3D object detection performance on KITTI validation set
 
 Car (mAP)
+
              Easy  Mod.  Hard
+             
 PointPillars 85.19 74.84 69.77 
+
 PoDAR        85.01 74.05 69.01 
 
 Pedestrian (mAP)
+
              Easy  Mod.  Hard
+             
 PointPillars 63.10 58.51 53.78 
+
 PoDAR        70.17 63.68 58.88 
 
 Cyclist (mAP)
+
              Easy  Mod.  Hard
+             
 PointPillars 79.44 62.03 58.40 
+
 PoDAR        82.42 61.23 56.48 
+
 
 => greatly improve pedestrians performance
  
